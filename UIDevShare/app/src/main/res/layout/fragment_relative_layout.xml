@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                tools:context="com.twenty57.uidevshare.RelativeLayoutFragment">
+
+    <Button
+        android:id="@+id/topLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/topLeft"/>
+
+    <Button
+        android:id="@+id/topRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/topRight"
+        tools:ignore="RelativeOverlap"/>
+
+    <Button
+        android:id="@+id/bottomLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/bottomLeft"/>
+
+    <Button
+        android:id="@+id/bottomRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/bottomRight"
+        tools:ignore="RelativeOverlap"/>
+
+    <Button
+        android:id="@+id/centerInParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/centerInParent"/>
+
+    <Button
+        android:id="@+id/aboveCH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/centerInParent"
+        android:layout_centerHorizontal="true"
+        android:text="@string/aboveCH"/>
+
+    <Button
+        android:id="@+id/belowCH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/centerInParent"
+        android:layout_centerHorizontal="true"
+        android:text="@string/belowCH"/>
+
+    <Button
+        android:id="@+id/startCV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/centerInParent"
+        android:text="@string/startCV"
+        tools:ignore="RelativeOverlap"/>
+
+    <Button
+        android:id="@+id/endCV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/centerInParent"
+        android:text="@string/endCV"/>
+
+</RelativeLayout>

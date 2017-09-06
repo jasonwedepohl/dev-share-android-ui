@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_linear_layout"
+        android:checked="true"
+        android:icon="@drawable/ic_linear"
+        android:title="@string/linear_layout"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/navigation_relative_layout"
+        android:checked="false"
+        android:icon="@drawable/ic_relative"
+        android:title="@string/relative_layout"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/navigation_constraint_layout"
+        android:checked="false"
+        android:icon="@drawable/ic_constraint"
+        android:title="@string/constraint_layout"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_list_view"
+        android:checked="false"
+        android:icon="@drawable/ic_list"
+        android:title="@string/list_view"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">UI Dev Share</string>
+
+    <string name="linear_layout">Linear</string>
+    <string name="relative_layout">Relative</string>
+    <string name="constraint_layout">Constraint</string>
+    <string name="list_view">List</string>
+
+    <string name="text_view">TEXT VIEW</string>
+    <string name="fixedHeightAndWidth">I have fixed height and width</string>
+    <string name="fixedHeightVariableWidth">I have fixed height and variable width</string>
+    <string name="variableHeightAndWidth">I have variable height and width</string>
+
+    <string name="topLeft">Top left</string>
+    <string name="topRight">Top right</string>
+    <string name="bottomLeft">Bottom left</string>
+    <string name="bottomRight">Bottom right</string>
+    <string name="centerInParent">Center in parent</string>
+    <string name="aboveCH">Above, CH</string>
+    <string name="belowCH">Below, CH</string>
+    <string name="startCV">Start, CV</string>
+    <string name="endCV">End, CV</string>
+
+    <string name="planet">planet</string>
+    <string name="name">name</string>
+    <string name="description">description</string>
+</resources>
